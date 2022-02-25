@@ -22,3 +22,28 @@
     $last_month = 1187.23;
     $this_month = 1089.98;
     echo $last_month - $this_month;
+    
+    //11.Умножение и деление
+    echo "<br>" . "<br>" . "Task 11" . "<br>";
+    $num_languages = 4;
+    $months = 11;
+    $days = 16;
+    $days_per_language = ($days * $months) / $num_languages;
+    echo $days_per_language;
+
+
+    //12.Степени
+    echo "<br>" . "<br>" . "Task 12" . "<br>";
+    echo 8**2;
+    
+
+    //13.Операторы присвоения
+    echo "<br>" . "<br>" . "Task 13" . "<br>";
+    $my_num = 6;
+    $answer = $my_num;
+    $answer += 2;
+    $answer *= 2;
+    $answer -= 2;
+    $answer /= 2;
+    $answer -= $my_num;
+    echo $answer;
